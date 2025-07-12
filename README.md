@@ -7,11 +7,11 @@ We're running a serverless architecture in Azure using **Cosmos DB** to store bi
 - We have **2M+ records**, each up to **300KB**.
 - It's a **read-heavy system**.
 - **Records older than 3 months are rarely accessed**, but still need to be available within **seconds** when needed.
-- 📈 **Cosmos DB costs are ballooning** due to retained historical data.
+- **Cosmos DB costs are ballooning** due to retained historical data.
 
 ---
 
-## 🚧 System Constraints
+## System Constraints
 
 - **No data loss**  
 - **No service downtime**  
@@ -30,13 +30,13 @@ We optimize costs using a **Hot/Cold storage model**:
 
 ---
 
-## 🧱 Architecture Diagram
+## Architecture Diagram
 
 ![Architecture Diagram](Architecture1.png)
 
 ---
 
-## 🛠️ Core Azure Components
+## Core Azure Components
 
 | Component            | Purpose                                 |
 |----------------------|-----------------------------------------|
