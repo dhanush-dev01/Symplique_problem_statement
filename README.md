@@ -44,7 +44,6 @@ We optimize costs using a **Hot/Cold storage model**:
 | Azure Blob Storage   | Cold storage for archived data          |
 | Azure Functions      | API layer, read/write logic             |
 | Azure Durable Func   | Scheduled archival of old records       |
-| Azure Event Grid     | Trigger archival workflows (Timer)      |
 
 ---
 
